@@ -3037,6 +3037,20 @@ textarea.w-input, textarea.w-select {
     display: block;
   }
 }
+/* make sidenav and hamburger bigger as the max-width decreases */
+@media screen and (max-width: 479px){
+  .hamburger{
+    padding-top: 30px;
+  }
+  .hamburger span{
+    height: 4px;
+  }
+  .sidenav a{
+    font-size: 24px;
+  }
+}
+
+
 
 .img-sm{
   height: 400px;
