@@ -2992,7 +2992,7 @@ textarea.w-input, textarea.w-select {
 
 .sidenav {
   height: 100%;
-  width: 5;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -3037,21 +3037,6 @@ textarea.w-input, textarea.w-select {
     display: block;
   }
 }
-/* make sidenav and hamburger bigger as the max-width decreases */
-@media screen and (max-width: 479px){
-  .hamburger{
-    padding-right: 50px;
-  }
-  .hamburger span{
-    height: 3px;
-  }
-  .sidenav a{
-    margin-top: 30px;
-    font-size: 30px;
-  }
-}
-
-
 
 .img-sm{
   height: 400px;
