@@ -2992,7 +2992,7 @@ textarea.w-input, textarea.w-select {
 
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 5;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -3043,7 +3043,7 @@ textarea.w-input, textarea.w-select {
     padding-top: 50px;
   }
   .hamburger span{
-    height: 5px;
+    height: 3px;
   }
   .sidenav a{
     font-size: 30px;
