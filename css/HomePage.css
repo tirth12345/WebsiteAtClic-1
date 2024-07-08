@@ -3040,13 +3040,13 @@ textarea.w-input, textarea.w-select {
 /* make sidenav and hamburger bigger as the max-width decreases */
 @media screen and (max-width: 479px){
   .hamburger{
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .hamburger span{
-    height: 4px;
+    height: 5px;
   }
   .sidenav a{
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 
