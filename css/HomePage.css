@@ -3038,7 +3038,7 @@ textarea.w-input, textarea.w-select {
   }
 }
 /* make sidenav and hamburger bigger as the max-width decreases */
-@media screen and (max-width: 479px){
+@media screen and (max-width: 991px){
   .hamburger{
     padding-top: 50px;
   }
